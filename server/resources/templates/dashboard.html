@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JIRA SURVIVOR</title>
+    <link rel="stylesheet" href="/styles/core.css" />
+
+    <link rel="stylesheet" href="/styles/dashboard.css" />
+    <script src="/js/jquery-1.7.2.min.js"></script>
+    <script src="/js/raphael.js"></script>
+    <script src="/js/dashboard.js"></script>
+    <script>
+        setTimeout("location.reload(true);", 5000);
+    </script>
+</head>
+
+<body>
+<div id="vertical-wrapper">
+
+	<div id="horizontal-wrapper" class="container-fluid">
+
+		<!-- Banner -->
+		<div id="banner" class="row-fluid panel">
+			<div class="span12">
+				<hr class="stripe green" />
+				<hr class="stripe light-green" />
+				<hr class="stripe yellow-green" />
+				<span class="project">Super Confitura Man</span>
+                <img class="logo" src="/img/logo.png" />
+				<div class="info">
+					<span class="company">99designs and Gengo</span>
+					<span class="date">{{ current-date }}</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- Leaderboards -->
+		<div class="leaderboard" id="{{ id }}">
+			<h2><span>Leaders</span></h2>
+			<ol>
+                {{#top}}
+				<li>
+					<img class="avatar" src="{{ member.avatar_url }}" />
+					<span class="name">{{ uid }}</span>
+					<span class="count">{{ score }}</span>
+				</li>
+                {{/#top}}
+			</ol>
+		</div>
+
+		<!--div id="leaderboards" class="row-fluid">
+			<div class="span6">
+				{{ leaderboard('top-closers', 'Hall of Fame', ranked[-5:] | reverse) }}
+			</div>
+			<div class="span6">
+				{{ leaderboard('worst-closers', 'Hall of Shame', ranked[:5]) }}
+			</div>
+		</div-->
+
+		<!--div id="charts" class="row-fluid panel">
+
+			<div class="span12">
+				<hr class="stripe green" />
+				<hr class="stripe light-green" />
+				<hr class="stripe yellow-green" />
+			</div>
+
+			<div class="span4">
+				<table id="bug-rate-data" summary="Bugs opened/closed">
+					<thead>
+						<tr>
+							<th>Period end</th>
+							<th># bugs opened</th>
+							<th># bugs closed</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>{{ row.period.end | format_datetime }}</td>
+							<td>{{ row.opened }}</td>
+							<td>{{ row.closed }}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="span4">
+				<table id="open-bug-data" summary="Open bugs">
+					<thead>
+						<tr>
+							<th>Period end</th>
+							<th># open bugs</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>{{ row.period.end | format_datetime }}</td>
+							<td>{{ row.count }}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="current-stats" class="span4">
+				<p class="title">Open bugs</p>
+				<p class="open-bug-count">
+					{{ open_bug_count }}
+				</p>
+				<div class="delta {% if open_bug_count < prev_open_bug_count %}neg{% else %}pos{% endif %}">
+					{{ (open_bug_count - prev_open_bug_count) | abs }}
+				</div>
+			</div>
+
+		</div-->
+
+		<div id="footer" class="row-fluid">
+			JIRA Survivor TM & Copyright 1987 99designs and Gengo dev teams
+			<span class="start">&lt;Insert coin to begin playing&gt;</span>
+		</div>
+
+	</div>
+</div>
+</body>

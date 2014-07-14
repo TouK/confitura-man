@@ -1,0 +1,76 @@
+{"frames": [
+
+{
+	"filename": "S26e37o.png",
+	"frame": {"x":2,"y":2,"w":512,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":128},
+	"sourceSize": {"w":512,"h":128}
+},
+{
+	"filename": "Village_well.png",
+	"frame": {"x":292,"y":163,"w":69,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":66},
+	"sourceSize": {"w":69,"h":66}
+},
+{
+	"filename": "cloud1.png",
+	"frame": {"x":292,"y":132,"w":96,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":2,"w":96,"h":29},
+	"sourceSize": {"w":96,"h":29}
+},
+{
+	"filename": "cloud2.png",
+	"frame": {"x":292,"y":231,"w":59,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":2,"y":2,"w":59,"h":21},
+	"sourceSize": {"w":59,"h":21}
+},
+{
+	"filename": "jungle1.png",
+	"frame": {"x":390,"y":132,"w":95,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":95,"h":67},
+	"sourceSize": {"w":95,"h":67}
+},
+{
+	"filename": "jungle2.png",
+	"frame": {"x":2,"y":132,"w":288,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":288,"h":103},
+	"sourceSize": {"w":288,"h":103}
+},
+{
+	"filename": "village_ground_grass.png",
+	"frame": {"x":363,"y":201,"w":94,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":46},
+	"sourceSize": {"w":94,"h":46}
+},
+{
+	"filename": "village_ground_stone.png",
+	"frame": {"x":459,"y":201,"w":65,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":46},
+	"sourceSize": {"w":65,"h":46}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "out.png",
+	"format": "RGBA8888",
+	"size": {"w":526,"h":254},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:112c4813dfbc1eba5063a2f9a7248e78:10e380c5d1c62f55b97306f99c9705e6:70c576c1e9fc266db7dfba4d429488ea$"
+}
+}

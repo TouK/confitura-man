@@ -1,0 +1,28 @@
+{"frames": {
+
+"devo_idle_strip.png":
+{
+	"frame": {"x":2,"y":2,"w":800,"h":1000},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":1000},
+	"sourceSize": {"w":800,"h":1000}
+},
+"devo_run_strip.png":
+{
+	"frame": {"x":804,"y":2,"w":640,"h":1000},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":1000},
+	"sourceSize": {"w":640,"h":1000}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "out.png",
+	"format": "RGBA8888",
+	"size": {"w":1446,"h":1004},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b66b0378dfb5f8060d3e29dc88a2c139:9c18f99b7e553bded5b69ae8ee244cac:70c576c1e9fc266db7dfba4d429488ea$"
+}
+}

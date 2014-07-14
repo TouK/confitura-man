@@ -1,0 +1,8 @@
+{
+  "name": "confitura-man",
+  "version": "0.0.0",
+  "dependencies": {
+    "phaser-official": "2.0.2",
+    "bootstrap": "~3.2.0"
+  }
+}
